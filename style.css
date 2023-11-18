@@ -1,0 +1,166 @@
+.thumb1{
+ width: 100%;
+ margin-top: 0;
+  
+}
+.searchbar{
+  
+  width:450px;
+height: 30px;  
+
+
+}
+body{
+  margin: 0;
+  
+}
+
+
+.head{
+  margin-right: 10px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+}
+.lefthead{
+
+width:150px;
+display:flex;
+align-items: center;
+}
+.menu{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 25px;
+}
+.logo{
+  height: 25px;
+}
+.se{
+width:40px;
+height: 40px;
+background-color: white;
+border: none;
+
+
+}
+.midhead{
+  margin-left: 70px;
+  margin-right: 35px;
+
+flex: 1;
+max-width: 500px;
+display: flex;
+align-items: center;
+}
+.righthead{
+
+width:250px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.mych,.no,.upload,.apps{
+  height: 35px;
+}
+
+.side{
+  top:45px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 65px;
+  text-align: center;
+  
+  
+
+ 
+}
+.e{
+  display: in;
+  width:35px;
+  margin:10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+  
+
+d,d1,d2,d3,d4,d5,d6{
+  font-family: roboto;
+  color: rgb(96,96,96);
+  font-size: 10px;
+}
+
+
+p{
+  margin-top: 10px;
+  width:210px;
+  font-family: roboto;
+  line-height: 20px;
+}
+.d1,.d2{
+  
+
+ 
+ vertical-align: top;
+}
+.divv1,.divv2{
+  vertical-align: top;
+  display: inline-block;
+}
+.channelimg1{
+  margin-right: 10px;
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.title1,.title2{
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size:14px;
+  text-decoration: none;
+}
+.stats1,.auth1{
+  margin-top: 0px;
+  font-size: 12px;
+  margin:2px;
+  text-decoration: none;
+  color: rgb(96, 96,96 );
+}
+.chans2{
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.divv3, .divv4{
+  display: inline-block;
+  vertical-align: top;
+}
+.auth2,.stats2{
+  color:rgb(96,96,96);
+  margin: 2px;
+  font-size: 12px;
+}
+.container1{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.videogrid{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 35px;
+margin-left: 80px;
+margin-right: 10px;
+}
