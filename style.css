@@ -230,7 +230,7 @@ p {
 .left-img{
   width: 30px;
 }
-@media  (max-width:1500px) {
+@media  (max-width:1000px) {
 
   .videogrid {
     display: grid;
