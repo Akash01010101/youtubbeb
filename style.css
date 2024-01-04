@@ -95,10 +95,6 @@ padding-left: 15px;
   position: fixed;
   width: 65px;
   text-align: center;
-
-
-
-
 }
 
 .e {
@@ -128,7 +124,7 @@ d6 {
 
 p {
   margin-top: 10px;
-  width: 210px;
+  width:;
   font-family: roboto;
   line-height: 20px;
 }
@@ -233,4 +229,38 @@ p {
 
 .left-img{
   width: 30px;
+}
+@media  (max-width:1500px) {
+
+  .videogrid {
+    display: grid;
+    grid-template-columns: 100vw;
+    column-gap: 15px;
+    row-gap: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .sidebar-left{
+    display: none;
+  }
+  .title1,
+  .title2 {
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .divv2{
+    width: 80vw;
+  }
+  p{
+    line-height: 25px;
+  }
+  .head{
+    width: 100vw;
+   left: 10px;
+   right: 10px;
+  height: 100px;
+  }
 }
